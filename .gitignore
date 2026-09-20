@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment / secrets
+.env
+*.key
+
+# Local result logs (each contributor's own runs -- don't clash on merge)
+results_module*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# Test repos cloned for the agent to work on (added in later modules)
+sandbox_repos/

@@ -1,0 +1,185 @@
+[
+  {
+    "model": "qwen2.5",
+    "timestamp": "2026-09-20T13:34:01.514211+00:00",
+    "pass_count": 5,
+    "total": 5,
+    "pass_rate": 1.0,
+    "results": [
+      {
+        "task": "Read the file called config.py",
+        "expected_tool": "read_file",
+        "got_tool": "read_file",
+        "tool_input": {
+          "path": "config.py"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Search the codebase for the function calculate_total",
+        "expected_tool": "search_codebase",
+        "got_tool": "search_codebase",
+        "tool_input": {
+          "query": "calculate_total"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Create a file named hello.txt containing 'Hello World'",
+        "expected_tool": "write_file",
+        "got_tool": "write_file",
+        "tool_input": {
+          "path": "hello.txt",
+          "content": "Hello World"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Run the test suite and tell me if it passes",
+        "expected_tool": "run_tests",
+        "got_tool": "run_tests",
+        "tool_input": {},
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Show me what has changed so far in the repo",
+        "expected_tool": "git_diff",
+        "got_tool": "git_diff",
+        "tool_input": {},
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      }
+    ]
+  },
+  {
+    "model": "qwen2.5",
+    "timestamp": "2026-09-20T13:34:39.345246+00:00",
+    "pass_count": 5,
+    "total": 5,
+    "pass_rate": 1.0,
+    "results": [
+      {
+        "task": "Read the file called config.py",
+        "expected_tool": "read_file",
+        "got_tool": "read_file",
+        "tool_input": {
+          "path": "config.py"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Search the codebase for the function calculate_total",
+        "expected_tool": "search_codebase",
+        "got_tool": "search_codebase",
+        "tool_input": {
+          "query": "calculate_total"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Create a file named hello.txt containing 'Hello World'",
+        "expected_tool": "write_file",
+        "got_tool": "write_file",
+        "tool_input": {
+          "path": "hello.txt",
+          "content": "Hello World"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Run the test suite and tell me if it passes",
+        "expected_tool": "run_tests",
+        "got_tool": "run_tests",
+        "tool_input": {},
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Show me what has changed so far in the repo",
+        "expected_tool": "git_diff",
+        "got_tool": "git_diff",
+        "tool_input": {},
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      }
+    ]
+  },
+  {
+    "model": "llama3.1",
+    "timestamp": "2026-09-20T13:35:13.082134+00:00",
+    "pass_count": 5,
+    "total": 5,
+    "pass_rate": 1.0,
+    "results": [
+      {
+        "task": "Read the file called config.py",
+        "expected_tool": "read_file",
+        "got_tool": "read_file",
+        "tool_input": {
+          "path": "config.py"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Search the codebase for the function calculate_total",
+        "expected_tool": "search_codebase",
+        "got_tool": "search_codebase",
+        "tool_input": {
+          "query": "calculate_total"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Create a file named hello.txt containing 'Hello World'",
+        "expected_tool": "write_file",
+        "got_tool": "write_file",
+        "tool_input": {
+          "content": "Hello World",
+          "path": "hello.txt"
+        },
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Run the test suite and tell me if it passes",
+        "expected_tool": "run_tests",
+        "got_tool": "run_tests",
+        "tool_input": {},
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      },
+      {
+        "task": "Show me what has changed so far in the repo",
+        "expected_tool": "git_diff",
+        "got_tool": "git_diff",
+        "tool_input": {},
+        "attempts": 1,
+        "status": "PASS",
+        "reason": null
+      }
+    ]
+  }
+]
